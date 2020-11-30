@@ -122,14 +122,14 @@ console.log('Problem #5')
 console.log(combineArrayNoDuplicates(array1, array2))
 
 // Stretch Goal using spread in argument declaration:
-const combineArrayNoDuplicates2 = (...array) => {
-	let comboArray = array.reduce((acc, currentValue) => {
-		return acc.concat(currentValue)
-	})
-	const set = new Set([comboArray])
-	// return one combined array with no duplicate values
-	// (convert the set to an array)
-	return Array.from(set)
-}
+// const combineArrayNoDuplicates2 = (...array) => {
+// 	let comboArray = array.reduce((acc, currentValue) => {
+// 		return acc.concat(currentValue)
+// 	})
+// 	const set = new Set([comboArray])
+// 	// return one combined array with no duplicate values
+// 	// (convert the set to an array)
+// 	return Array.from(set)
+// }
 
-console.log(combineArrayNoDuplicates2(array1, array2, [10, 11, 12]))
+// console.log(combineArrayNoDuplicates2(array1, array2, [10, 11, 12]))

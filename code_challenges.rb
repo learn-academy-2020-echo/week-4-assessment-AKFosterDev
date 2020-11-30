@@ -46,7 +46,7 @@ album2 = 'Sgt Pepper' # Expected output: 'Sgt Pppr'
 album3 = 'Abbey Road' # Expected output: 'bby Rd'
 
 def vowel_remover string
-  string.delete "aeiou"
+  string.delete "aeiouAEIOU"
 end
 
 puts 'Problem #3'

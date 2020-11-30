@@ -61,9 +61,10 @@ nums_array1 = [42, 7, 27] # Expected output: 76
 nums_array2 = [25, 17, 47, 11] # Expected output: 100
 
 def add_numbers array
-  sum = 0
-  array.each { |num| sum += num } 
-  sum
+  # sum = 0
+  # array.each { |num| sum += num } 
+  # sum
+  array.sum
 end 
 
 puts 'Problem #4'
